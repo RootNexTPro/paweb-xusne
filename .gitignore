@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Panel Logs & Runtime Files
+*.log
+panel.log
+*.pid
+panel.pid
+*.tmp
+
+# Sensitive Runtime Data (do not push user DB or secret key)
+data/database.json
+data/database.json.bak
+data/.secret_key
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

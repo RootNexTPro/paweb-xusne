@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "host": "votre-vps.domaine.com",
+    "target_server": "192.179.18.100:443",
+    "sni": "crashlyticsreports-pa.googleapis.com",
+    "path": "/nexustunnel",
+    "docker_image": "docker.io/nextl/nexus-tunnel",
+    "panel_title": "Nexus Tunnel - V2Ray / VLESS Control Panel",
+    "root_uuid": "e3a478b2-5e1b-4cf7-8b09-1a2b3c4d5e6f",
+    "sni_list": [
+      "crashlyticsreports-pa.googleapis.com",
+      "firebaselogging-pa.googleapis.com",
+      "clientservices.googleapis.com",
+      "play.googleapis.com"
+    ],
+    "target_ips": [
+      "192.179.18.100:443",
+      "142.250.185.238:443",
+      "172.217.170.206:443"
+    ]
+  },
+  "users": [],
+  "requests": [],
+  "vouchers": [],
+  "devices": [],
+  "admins": [],
+  "resellers": []
+}
